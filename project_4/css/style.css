@@ -1,0 +1,316 @@
+
+body {
+  background-color: #f2e9e4;
+  font-family: 'Spectral', serif;
+  padding:0;
+  margin:0;
+
+}
+
+/* globals */
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow: hidden;
+}
+
+.dark {
+  background: #22223B;
+  align-items: center;
+  padding: 7px;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 60%;
+  margin: auto;
+}
+
+.dark_left {
+  background: #22223B;
+  display: block;
+  text-align: left;
+  float: left;
+  padding: 15px;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 35px;
+  width: 60%;
+  margin: auto;
+}
+
+.dark_right {
+  background: #22223B;
+  text-align: right;
+  align-items: right;
+  float: right;
+  display: block;
+  padding: 15px;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 35px;
+  width: 60%;
+  margin: auto;
+}
+
+.opacity {
+  opacity: 0.55;
+}
+
+.tags {
+  font-size: 10px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* header */
+header h1 {
+  float: right;
+}
+
+header {
+  color: #000000;;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  min-height: 70px;
+}
+
+nav {
+  background-color: #22223B;
+  text-align: center;
+  word-spacing: 20px;
+  padding: 25px 0 25px 0;
+}
+
+nav a{
+  color: #ffffff;
+  text-transform: lowercase;
+  font-size: 20px;
+}
+
+nav a:hover{
+  color:#C9ADA7;
+}
+
+header .current a{
+  color: #C9ADA7;
+  font-weight: bold;
+}
+
+nav li{
+  display: inline;
+}
+
+/* showcase */
+#showcase {
+  min-height: 250px;
+  background: url('../images/show_case.jpg');
+  background-repeat: no-repeat;
+  background-size: 95%;
+  background-position: 50% 65%;
+  border-top: 3px solid #22223B;
+  border-bottom: 3px solid #22223B;
+
+  background-size: cover;
+}
+
+/* boxes */
+#top3 {
+  margin-top: 40px;
+  line-height: 0.6em;
+  margin-bottom: 10px;
+}
+
+#top3 h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+#top3 .box p {
+  line-height: 1em;
+  padding: 5px;
+}
+
+
+#top3 .box {
+  float: left;
+  width: 30%;
+  padding: 15px;
+  text-align: center;
+  align-items: center;
+
+}
+#top3 .box img {
+  width: 110px;
+  border: 15px #9A8C98 solid;
+  border-left: 25px #9A8C98 solid;
+  border-right: 25px #9A8C98 solid;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+
+#top3 .box img:hover{
+  opacity:0.6;
+}
+
+/* top 10 / honor_roll */
+#top10 {
+ align-items: left;
+ text-align: left;
+ margin-bottom: 25px;
+}
+
+#top10 p, #honor_roll p{
+  display: block;
+  text-align: left;
+  line-height: 1.3em;
+  margin-bottom: 20px;
+}
+
+#top10 a {
+  color: #000000;
+}
+
+#top10 a:hover {
+  opacity:0.6;
+}
+
+#top10 li, #honor_roll li{
+  list-style: lower-roman;
+  line-height: 1.3em;
+  background: #C9ADA7;
+}
+
+#top10 ol, #honor_roll ol{
+  background: #C9ADA7;
+  padding: 40px;
+}
+
+/* honor_roll*/
+#honor_roll {
+align-items: left;
+text-align: left;
+margin-bottom: 25px;
+}
+
+#blurb {
+  padding: 25px;
+  padding-bottom: 5px;
+}
+
+/*footer */
+
+footer {
+  padding: 10px;
+  margin-top: 10px;
+  color: #ffffff;
+  background-color: #22223B;
+  text-align: center;
+}
+
+/* book of the month */
+.book-of-the-month {
+  margin-top: 40px;
+  line-height: 0.6em;
+  margin-bottom: 10px;
+
+}
+
+.book-of-the-month h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.book-of-the-month .month-box p {
+  line-height: 1em;
+  padding: 5px;
+  width:60%;
+  margin: auto;
+
+}
+
+.book-of-the-month .month-box {
+  width: auto;
+  padding: 15px;
+  text-align: center;
+  align-items: center;
+}
+
+.book-of-the-month .month-box img {
+  text-align: center;
+  align-items: center;
+  width: 130px;
+  border: 15px #9A8C98 solid;
+  border-left: 25px #9A8C98 solid;
+  border-right: 25px #9A8C98 solid;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+
+.book-of-the-month .month-box img:hover{
+  opacity:0.6;
+}
+
+/*book entries */
+.entry {
+  background: #C9ADA7;
+  margin-bottom: 40px;
+}
+
+.entry p {
+  margin: 15px;
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
+.entry h3 {
+  margin-left: 15px;
+  font-size: 15px;
+  padding-top: 5px;
+}
+
+#books a {
+  color: #ffffff;
+}
+
+#books a:hover {
+  opacity: 0.6;
+}
+
+/* media queries */
+@media(max-width: 769px) {
+  header, header nav, header nav li, #top3 .box, .entry {
+    float:none;
+    text-align: center;
+    width: 100%;
+    display: block;
+  }
+
+  #books h3 {
+    font-size: 13px;
+  }
+
+  header nav a, .entry h3 {
+    font-size: 16px;
+  }
+
+  #top3 h3, .book-of-the-month h3 {
+    font-size: 15px;
+  }
+
+  #top10 h3, #honor_roll h3 {
+    font-size: 16px;
+  }
+
+  header {
+    padding-bottom: 20px;
+  }
+
+  #showcase h1{
+    margin-top: 40px;
+  }
+
+}
